@@ -1,0 +1,14 @@
+[package]
+name = "lau-scheduling-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-scheduling-theory"
+description = "Scheduling theory — optimal resource allocation over time: job scheduling, priority rules, flow shop, branch and bound, and agent fleet scheduling"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
+serde_json = "1"
